@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mitchelle’s Fashion</title>
+<style>
+body { margin:0; font-family:Arial,sans-serif; background:#f8f6f4; color:#333; }
+header { background:#000; color:#fff; text-align:center; padding:20px; }
+nav { background:#d4af37; text-align:center; padding:10px; }
+nav a { margin:0 10px; color:black; text-decoration:none; font-weight:bold; }
+nav a:hover { text-decoration:underline; }
+.hero { text-align:center; padding:50px 20px; background:url("https://images.unsplash.com/photo-1521334884684-d80222895322") center/cover; color:white; }
+.hero h2 { font-size:32px; margin:0; }
+.collections { padding:30px; text-align:center; }
+.gallery { display:flex; justify-content:center; gap:15px; flex-wrap:wrap; }
+.card { background:white; width:250px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); padding:10px; }
+.card img { width:100%; border-radius:10px; height:300px; object-fit:cover; }
+button { background:black; color:white; border:none; padding:8px 15px; margin-top:8px; border-radius:5px; cursor:pointer; }
+button:hover { background:#d4af37; color:black; }
+.about, .contact { background:#eee; padding:30px; text-align:center; margin-top:20px; }
+.contact form { display:flex; flex-direction:column; align-items:center; gap:10px; max-width:400px; margin:0 auto; }
+.contact input, .contact textarea { width:100%; padding:8px; border-radius:5px; border:1px solid #ccc; }
+footer { background:#000; color:white; text-align:center; padding:15px; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Mitchelle’s Fashion</h1>
+</header>
+
+<nav>
+<a href="#">Home</a><a href="#">Collections</a><a href="#">About</a><a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Elegant Fashion, Your Style</h2>
+</section>
+
+<section class="collections">
+<h2>Our Collections</h2>
+<div class="gallery">
+<div class="card"><img src="https://images.unsplash.com/photo-1593032465171-f2c6c7f8b7c0"><h3>Elegant Dresses</h3><button>View More</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1520975916090-3105956dac38"><h3>Casual Wear</h3><button>View More</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9"><h3>Evening Gowns</h3><button>View More</button></div>
+</div>
+</section>
+
+<section class="about">
+<h2>About Us</h2>
+<p>Timeless pieces that inspire confidence and elegance.</p>
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<form>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Mitchelle’s Fashion</p>
+</footer>
+
+</body>
+</html>
